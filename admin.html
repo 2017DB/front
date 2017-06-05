@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KW BOOK - 어드민</title>
+	<link href="asset/css/admin.css" rel="stylesheet">
+	<script type="text/javascript" src="asset/js/jquery.min.js"></script>
+	<script type="text/javascript" src="asset/js/my.js"></script>
+</head>
+<body>
+<header>
+	<h1><a href="/admin">KW BOOK</a></h1>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">도서관리</a>
+				<ul>
+					<li><a href="#">폐기</a></li>
+					<li><a href="#">등록</a></li>
+				</ul>	
+			</li>
+			<li>
+				<a href="#">회원관리</a>
+				<ul>
+					<li><a href="#">회원정보</a></li>
+					<li><a href="#">주문정보</a></li>
+				</ul>
+			</li>
+			<li><a href="#">매출관리</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<div class="global">
+		<ul>
+			<li><a href="/admin">홈</a></li>
+		</ul>
+		<a href="/home" class="home" title="학생전용페이지로 이동">학생전용페이지로</a>
+	</div>
+	<div class="rightWrap">
+		<div>
+			<article id="todayMenu">
+				<h2>도서주문현황</h2>
+				<ul class="tabMenu">
+					<li class="on"><a data-no="1" href="javascript:;">오늘</a></li>
+					<li><a data-no="2" href="javascript:;">어제</a></li>
+					<li><a data-no="3" href="javascript:;">이번주</a></li>
+				</ul>
+				<div>
+					134
+				</div>
+			</article>
+			<article id="todayCount">
+				<h2>총 도서 판매액</h2>
+				<div class="graph">
+					<ul>
+						<li>
+							<span class="gTerm">2월</span>
+							<p class="gBar t1" style="height:40%">
+								<span>15000원</span>
+							</p>
+						</li>
+						<li>
+							<span class="gTerm">3월</span>
+							<p class="gBar t2" style="height:20%">
+								<span>800,000원</span>
+							</p>
+						</li>
+						<li>
+							<span class="gTerm">4월</span>
+							<p class="gBar t3" style="height:90%">
+								<span>507,000원</span>
+							</p>
+						</li>
+						<li>
+							<span class="gTerm">5월</span>
+							<p class="gBar t4" style="height:74%">
+								<span>957,900원</span>
+							</p>
+						</li>
+						<li>
+							<span class="gTerm">6월</span>
+							<p class="gBar t5" style="height:30%">
+								<span>235,140원</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</div>
+		<div>
+			<article id="bestArea">
+				<ul class="tabMenu">
+					<li class="on"><a data-no='1' href="javascript:;">월간베스트</a></li>
+					<li><a data-no='2' href="javascript:;">주간베스트</a></li>
+				</ul>
+				<ol>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+					<li>아무개도서</li>
+				</ol>
+			</article>
+			<article id="ranking">
+				<h2>자주 이용하는 학생</h2>
+				<ol>
+					<li>
+						<span class="img" style="background: url('http://cfile23.uf.tistory.com/image/236EDA4E570B8C0829AB2C') center;"></span>
+						<span class="name">송혜교</span>
+					</li>
+					<li>
+						<span class="img" style="background: url('http://www.smlounge.co.kr/old_data/mlounge/contents/data/article/141223861456065.jpg') center;"></span>
+						<span class="name">송혜교</span>
+					</li>
+					<li>
+						<span class="img" style="background: url('http://img.tenasia.hankyung.com/webwp_kr/wp-content/uploads/2014/09/2014091002480018015.jpg') center;"></span>
+						<span class="name">송혜교</span>
+					</li>
+					<li>
+						<span class="img" style="background: url('http://image.hankookilbo.com/i.aspx?Guid=e2534d4f457a4a2c9d89cdc319ce0dc5&Month=201610&size=640') center;"></span>
+						<span class="name">송혜교</span>
+					</li>
+				</ol>
+			</article>
+			<article id="allCount">
+				<h2>사용자 구입 비율</h2>
+				<div class="pieID pie"></div>
+				<ul class="pieID legend">
+					<li>
+						<em>국내도서(국내소설)</em>
+						<span class="attend">10</span>
+					</li>
+					<li>
+						<em>국내도서(자기계발서)</em>
+						<span class="absent">2</span>
+					</li>
+					<li>
+						<em>외국도서(전문서적)</em>
+						<span class="noVote">1</span>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</div>
+</section>
+<footer>
+	<p>Copyright (c) 광운서점. All rights reserved</p>
+</footer>
+</body>
+</html>

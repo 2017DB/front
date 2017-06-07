@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KW BOOK - 어드민</title>
+	<link href="asset/css/common.css" rel="stylesheet">
+	<script type="text/javascript" src="asset/js/jquery.min.js"></script>
+	<script type="text/javascript" src="asset/js/form.js"></script>
+</head>
+<body>
+<header>
+	<h1><a href="/home"><img src="asset/img/logo.png" alt="KW BOOK"></a></h1>
+	<ul class="global">
+		<li><a href="#">로그인</a></li>
+		<li><a href="#">회원가입</a></li>
+		<li><a href="#">주문배송</a></li>
+		<li><a href="#">장바구니</a></li>
+	</ul>
+	<form action="" method="get">
+		<input type="text" name="key">
+		<input type="submit" value="검색">
+	</form>
+	<nav>
+		<ul>
+			<!-- <li class="all"><button>전체메뉴 보기</button></li> -->
+			<li><a href="#">국내도서</a></li>
+			<li><a href="#">외국도서</a></li>
+			<li><a href="#">e-Book</a></li>
+			<li><a href="#">웹소설</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<!-- [S] main visual -->
+	<article id="mainVis">
+		<div>
+			<ul>
+				<li style="background: #fff">ddd</li>
+				<li style="background: #000">aaa</li>
+			</ul>
+		</div>
+	</article>
+	<!-- [E] main visual -->
+	<div>
+		<article id="todayBook">
+			<h2>오늘의<span>책</span></h2>
+			<div>
+				<span><img src="asset/img/sample.jpg" alt=""></span>
+				<div>
+					<div>
+						<span>인문</span>
+						<h3>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</h3>
+					</div>
+					<div>
+						<p class="author">스벤 브링크만 저/강경이 역 | 다산초당</p>
+						<p class="price">12,600원(10% 할인)</p>
+					</div>
+					<p class="sub">“국민 행복지수 세계 1위 덴마크의 최고 인문 베스트셀러!”소진되지 않는 삶을 위한 안티-자기계발 7단계</p>
+					<p class="cont">
+						삶은 결코 완벽히 만족스럽지 않다. 당연한 사실이지만 이를 외면한 채 살아가는 현대인의 '노오력'하는 삶은 소진으로 귀결된다. 그리고 고효율 고성장시대에 형성된 문화적 관성은 개인을 계속해서 자기계발의 쳇바퀴 속으로 몰아넣는다. <br>
+						저자는 이런 가속화 사회의 문화를 비판하는 한편, 이런 가운데서도 개인이 인간답게, 존엄하게 살기 위한 지침을 스토아 철학에서 영감을 얻은 7단계 방법으로 제공해준다. 스토아 철학에서는 우리 삶에 바로 적용할 수 있는 실용적인 면을 특히 많이 발견할 수 있다.
+					</p>
+				</div>
+			</div>
+		</article>
+		<article id="banner">
+			<div>
+				<ul>
+					<li><img src="asset/img/sample2.png" alt=""></li>
+					<li><img src="asset/img/sample2.png" alt=""></li>
+				</ul>
+			</div>
+		</article>
+	</div>
+	<article id="bestsel">
+		<h2>베스트<span>셀러</span></h2>
+		<div>
+			<ul class="tabMenu">
+				<li class="on"><a href="javascript:;" data-type="all">전체</a></li>
+				<li><a href="javascript:;" data-type="within">국내도서</a></li>
+				<li><a href="javascript:;" data-type="without">외국도서</a></li>
+				<li><a href="javascript:;" data-type="ebook">e-Book</a></li>
+			</ul>
+			<ol class="all">
+				<li>
+					<span>1</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>2</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>3</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>4</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>5</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>6</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>7</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>8</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+			</ol>
+			<ol class="within">
+				<li>
+					<span>1</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>2</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>3</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>4</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>5</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>6</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>7</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>8</span>
+					<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+			</ol>
+			<ol class="without">
+				<li>
+					<span>1</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>2</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>3</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>4</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>5</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>6</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>7</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>8</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+			</ol>
+			<ol class="ebook">
+				<li>
+					<span>1</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>2</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>3</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>4</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>5</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>6</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>7</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+				<li>
+					<span>8</span>
+					<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+					<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+					<p>도선우</p>
+				</li>
+			</ol>
+		</div>
+	</article>
+	<article id="other">
+		<ul class="tabMenu2">
+			<li class="on"><a href="javascript:;" data-no="1">MD 추천도서</a></li>
+			<li><a href="javascript:;" data-no="2">화제의 신간</a></li>
+			<li><a href="javascript:;" data-no="3">독자의 선택</a></li>
+			<li><a href="javascript:;" data-no="4">요즘 뜨는 책</a></li>
+		</ul>
+		<ol class="otherlist1">
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+		</ol>
+		<ol class="otherlist2">
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample3.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+		</ol>
+		<ol class="otherlist3">
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+		</ol>
+		<ol class="otherlist4">
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+			<li>
+				<span class="img"><img src="asset/img/sample.jpg" alt=""></span>
+				<strong>스탠드펌 : 시류에 휩쓸리지 않고 굳건히 서 있는 삶</strong>
+				<p class="price">12,800원(10% 할인)</p>
+				<p class="point">700P</p>
+			</li>
+		</ol>
+	</article>
+</section>
+<footer>
+	<p>㈜ 광운서점 서울시 노원구 광운로 20 (월계동 447-1) 광운대학교(01897) 대표이사 : 김우생<br>
+사업자등록번호 : 100-12-34567<br>
+대표전화 : 02.940.5114<br>
+서울특별시 통신판매업신고번호 : 제 101호<br>
+COPYRIGHT(C) KWANGWOON BOOK. ALL RIGHTS RESERVED.</p>
+</footer>
+</body>
+</html>
